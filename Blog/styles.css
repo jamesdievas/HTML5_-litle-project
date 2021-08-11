@@ -1,0 +1,98 @@
+
+/* Child selector */
+body>header {
+    background-color: #80b3ff;
+    margin: 0px;
+    padding: 30px;
+}
+body { /**/
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #36f;
+    margin-bottom: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+footer {
+   
+    padding: 40px 20px;
+    background-color: #001f4d;
+  
+    
+
+}
+/*ID Selectors */
+#subtitle {
+    font-size:larger;
+    margin-top: 0;
+
+}
+#roda {
+    color: white;
+}
+#logo {
+    float: right;
+    vertical-align: top;
+    margin-right: 0;
+    margin-left: 5px;
+}
+#mainarticle {
+    margin: 20PX;
+
+}
+
+/*Class Selectors*/
+.post {
+    border-left: 4px solid #003380 ;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+/*Multiplo Selectores*/
+p,h2 {
+
+    color: #055772;
+}
+
+/*Descendents*/
+nav li {
+    font-size: large;
+    font-weight: bold;
+}
+article p {
+    font-size: 15.5px;
+    text-align:justify;
+    margin-right: 20px;
+}
+article h2 {
+    color: #067593;
+}
+article img {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #067593;
+}
+article {
+    clear: left;
+}
+/* STYLE A TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+th, td {
+    border: 1px solid #0C6170;
+    padding: 5px;
+}
+th {
+    background-color:#738FA7 ;
+}
+td {
+    text-align: center;
+}
