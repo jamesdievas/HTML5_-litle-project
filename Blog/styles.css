@@ -5,6 +5,7 @@ body>header {
     margin: 0px;
     padding: 30px;
 }
+/* Element Selectors */
 body { /**/
     margin: 0;
     padding: 0;
@@ -16,7 +17,10 @@ h1 {
     font-size: 30px;
     font-weight: normal;
 }
-
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+}
 footer {
    
     padding: 40px 20px;
@@ -50,6 +54,7 @@ footer {
     border-left: 4px solid #003380 ;
     padding-left: 15px;
     margin-bottom: 30px;
+    margin-left: 10px;
 }
 
 /*Multiplo Selectores*/
@@ -59,9 +64,25 @@ p,h2 {
 }
 
 /*Descendents*/
+
+/* flexbox items */
 nav li {
     font-size: large;
     font-weight: bold;
+    /* float: left;  you can use float ou flexbox, but not both at the same time*/
+    margin-right: 5px;  /*separa das os elementos das li's*/
+    background-color: #738FA7;
+    padding: 3px;
+    flex-grow:1;
+    text-align: center;
+}
+/* nav li {
+
+} */
+/* flexbox container */
+nav ul {
+    display: flex;
+    flex-direction: row;
 }
 article p {
     font-size: 15.5px;
