@@ -3,10 +3,44 @@
 <meta name="viewport" content="width=device-width">
 
 <title>Retro and Classic Games: from Pong to Mario Bros.</title>
+<style>
+    h1 {
+        color: #36f;
+        font-style: unset;
+        margin-bottom: 0px;
+    }
+    header {
+        background-color: #80b3ff;
+         margin: 10px;
+    }
+    /*ID Selectors */
+    #subtitle {
+        font-size:larger;
+        margin-top: 0;
 
-<header style="background-color: #80b3ff; margin: 10px;">
-    <h1 style="color: #36f;">Retro and Classic Games</h1>
-    <p>from Pong to Mario Bros.</p>
+    }
+
+    /*Class Selectors*/
+    .post {
+        border-left: 4px solid #1a75ff ;
+    }
+
+    /*Multiplo Selectores*/
+    p,h2 {
+
+        color: #001f4d;
+    }
+
+    /*Descendents*/
+    nav li {
+        font-size: large;
+        font-weight: bold;
+    }
+</style>
+
+<header >
+    <h1>Retro and Classic Games</h1>
+    <p id="subtitle">from Pong to Mario Bros.</p>
     <img src="images/logo.png" alt="Retro Joystick logo"
          srcset="images/logo.png 1x, images/logo-2x.png 2x, images/logo-3x.png 3x"
          width="100" height="115">
@@ -24,7 +58,7 @@
 
 <main>
     <ul>
-        <li>
+        <li class="post">
             <article>
                 <img src="games/tetris.png" width="150" height="150" alt="Tetris Game">
                 <h2>Tetris: the Russian puzzle</h2>
@@ -32,7 +66,7 @@
                 <p><b>See full article</b></p>
             </article>
         </li>
-        <li>
+        <li class="post">
             <article>
                 <img src="games/donkeykong.png" width="150" height="150" alt="Donkey Kong Game">
                 <h2>Donkey Kong: barrels and the princess</h2>
@@ -40,7 +74,7 @@
                 <p><b>See full article</b></p>
             </article>
         </li>
-        <li>
+        <li class="post">
             <article>
                 <img src="games/pacman.png" width="150" height="150" alt="PAC-MAN Game">
                 <h2>Pac-Man: welcome to Arcade games!</h2>
@@ -48,7 +82,7 @@
                 <p><b>See full article</b></p>
             </article>
         </li>  
-        <li>
+        <li class="post">
             <article>
                 <img src="games/mariobros.png" width="150" height="150" alt="Mario Bros">
                 <h2>Mario Bros: plumbing on New York City</h2>
